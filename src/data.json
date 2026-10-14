@@ -1,0 +1,45 @@
+[
+    {
+        "id":1,
+        "imagem":"/mascara1.png",
+        "alt": "semifacial",
+        "texto": "Kit Máscara SemiFacial de Uso Geral com Filtro 7003 + Retentor - ProtecFace | CA 48816 ",
+        "valor": "R$297,26"
+    },
+    {
+        "id":2,
+        "imagem":"/luva2.png",
+        "alt": "luvas",
+        "texto": "Luvas banhadas com látex natural azul EPI Zeus - Soft Grip - CA 51256 R$9,90",
+        "valor": "R$9,90"
+    },
+    {
+        "id":3,
+        "imagem":"/tenis3.png",
+        "alt": "tenis",
+        "texto": "Tênis EVA Marluvas Branco - CA 48714",
+        "valor": "R$95,90"
+    },
+    {
+        "id":4,
+        "imagem":"/fone4.png",
+        "alt": "protetorAuricular",
+        "texto": "Protetor Auricular tipo fone 20db 3M Pomp Muffler - CA 14235",
+        "valor": "R$172,81"
+    },
+    {
+        "id":5,
+        "imagem":"/p.solar5.png",
+        "alt": "protetorSolar",
+        "texto": "Protetor solar fator 60 - 120g",
+        "valor": "R$27,46"
+    },
+    {
+        "id":6,
+        "imagem":"/p.facial6.png",
+        "alt": "protetorFacial",
+        "texto": "Protetor facial tipo tela nylon 20cm com boné",
+        "valor": "R$67,36"
+    }
+
+]
