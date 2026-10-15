@@ -24,6 +24,10 @@ Avaliativa:
 
 https://docs.google.com/document/d/1qPadIeMXrl9bPHYaCIu3O3-Rwbpf0FmxObw5G5jrRPk/edit?tab=t.0#heading=h.xukt4grbpjvo
 
+# Figma
+
+https://www.figma.com/design/tJCWfhVdr4F3APGF6mKBFh/Sem-t%25C3%25ADtulo?node-id=0-1&p=f&t=WaLYup4ucx8awXtx-0 
+
 # React Router Dom
 
 Para viajar em mais de uma janela ao invés de ser tipo o site da Pizza
