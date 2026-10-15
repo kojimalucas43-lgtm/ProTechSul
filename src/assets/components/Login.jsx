@@ -9,6 +9,18 @@ export const Login = () => {
                     <a href="../Favoritos">Favoritos</a>
                 </nav>
             </header>
+
+            <div>
+                <p>E-mail:</p>
+                <input type="text" placeholder="Digite o endereço de e-mail"/>
+            </div>
+
+            <div>
+                <p>Senha:</p>
+                <input type="text" placeholder="Digite sua senha"/>
+            </div>
+
+            
         </section>
     )
 }
