@@ -28,5 +28,5 @@ https://docs.google.com/document/d/1qPadIeMXrl9bPHYaCIu3O3-Rwbpf0FmxObw5G5jrRPk/
 
 Para viajar em mais de uma janela ao invés de ser tipo o site da Pizza
 
-
+https://www.devmedia.com.br/react-js-criando-rotas-com-react-router-dom/42901 
 
