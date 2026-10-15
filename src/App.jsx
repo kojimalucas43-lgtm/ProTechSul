@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Catalogo/>
-      {/* <Sobre/>
-      <Orcamento/>
+      {/*<Sobre/>
+       <Orcamento/>
       <Login/>
       <Cadastro/>
       <Suporte/>
