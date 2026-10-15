@@ -36,3 +36,10 @@ https://www.devmedia.com.br/react-js-criando-rotas-com-react-router-dom/42901
 
 https://www.youtube.com/watch?v=oTIJunBa6MA 
 
+# Colaboradores
+
+https://github.com/brancaglionpietro-coder
+
+https://github.com/O-BaianoOficial007
+
+https://github.com/kojimalucas43-lgtm
