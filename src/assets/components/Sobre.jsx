@@ -2,13 +2,13 @@ export const Sobre = () => {
     return(
         <section  id="sobre">
         <header>
-            <nav>
-                <a href="../Catalogo">Catálogo</a>
-                <a href="../Sobre">Sobre nós</a>
-                <a href="../Orcamento">orçamento</a>
-                <a href="../Favoritos">Favoritos</a>
-            </nav>
-        </header>
+                <nav>
+                <Link to="/catalogo">Catálogo</Link>
+                <Link to="/sobre">Sobre nós</Link>
+                <Link to="/orcamento">Orçamento</Link>
+                <Link to="/favoritos">Favoritos</Link>
+                </nav>
+            </header>
             
             <h2>ProtecSul EPI's — Proteção, Segurança e Confiança</h2>
             <div>

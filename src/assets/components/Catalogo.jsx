@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom'
+
 export const Catalogo = () => {
     return(
         <section id="catalogo">
             <header>
                 <nav>
-                    <a href="../Catalogo">Catálogo</a>
-                    <a href="../Sobre">Sobre nós</a>
-                    <a href="../Orcamento">Orçamento</a>
-                    <a href="../Favoritos">Favoritos</a>
+                <Link to="/catalogo">Catálogo</Link>
+                <Link to="/sobre">Sobre nós</Link>
+                <Link to="/orcamento">Orçamento</Link>
+                <Link to="/favoritos">Favoritos</Link>
                 </nav>
             </header>
 
