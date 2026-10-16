@@ -10,6 +10,8 @@ export const Catalogo = () => {
           <Link to="/sobre">Sobre nós</Link>
           <Link to="/orcamento">Orçamento</Link>
           <Link to="/favoritos">Favoritos</Link>
+          <Link to="/detalhes">Detalhes</Link>  
+
         </nav>
       </header>
 

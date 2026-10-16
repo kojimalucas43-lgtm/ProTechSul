@@ -11,6 +11,17 @@ export const Detalhes = () => {
                 <Link to="/favoritos">Favoritos</Link>
                 </nav>
             </header>
+
+            <p>DETALHES DO PRODUTO</p>
+
+            {data.map((item, index) => (
+                    <div key={index}>
+                    <img src={item.image} alt={item.texto} />
+                    <h2>{item.texto}</h2>
+                    <h3>{item.valor}</h3>
+                    </div>
+                ))}
+
         </section>
     )
 }

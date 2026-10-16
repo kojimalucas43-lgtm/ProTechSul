@@ -12,6 +12,21 @@ export const Suporte = () => {
                 <Link to="/favoritos">Favoritos</Link>
                 </nav>
             </header>
+
+            <div>
+                <p>E-mail:</p>
+                <input type="text" placeholder="Digite seu e-mail"/>
+            </div>
+
+            <div>
+                <p>Mensagem:</p>
+                <input type="text" placeholder="Digite sua mensagem"/>
+            </div>
+
+             <button type="button">ENVIAR MENSAGEM</button>
+
+
+
         </section>
 
 
