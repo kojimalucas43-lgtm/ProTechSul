@@ -1,27 +1,27 @@
-// import Sobre from "./components/Sobre";
-// import Orcamento from "./components/Orcamento";
-// import Login from "./components/Login";
-// import Cadastro from "./components/Cadastro";
-// import Suporte from "./components/Suporte";
-// import Detalhes from "./components/Detalhes";
-// import Favoritos from "./components/Favoritos";
-// import Concluido from "./components/Concluido";
-
-import { Catalogo } from "./assets/components/Catalogo"
+import { Routes, Route } from 'react-router-dom'
+import { Catalogo } from './assets/components/Catalogo'
+import { Sobre } from './assets/components/Sobre'
+import { Orcamento } from './assets/components/Orcamento'
+import { Favoritos } from './assets/components/Favoritos'
+import { Login } from './assets/components/Login'
+import { Cadastro } from './assets/components/Cadastro'
+import { Detalhes } from './assets/components/Detalhes'
+import { Suporte } from './assets/components/Suporte'
+import { Concluido } from './assets/components/Concluido'
 
 function App() {
   return (
-    <>
-      <Catalogo/>
-      {/*<Sobre/>
-       <Orcamento/>
-      <Login/>
-      <Cadastro/>
-      <Suporte/>
-      <Detalhes/>
-      <Favoritos/>
-      <Concluido/> */}
-    </>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/cadastro" element={<Cadastro />} />
+      <Route path="/catalogo" element={<Catalogo />} />
+      <Route path="/detalhes" element={<Detalhes />} />
+      <Route path="/sobre" element={<Sobre />} />
+      <Route path="/orcamento" element={<Orcamento />} />
+      <Route path="/favoritos" element={<Favoritos />} />
+      <Route path="/suporte" element={<Suporte />} />
+      <Route path="/concluido" element={<Concluido />} />
+    </Routes>
   )
 }
 
