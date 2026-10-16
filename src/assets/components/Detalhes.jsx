@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export const Detalhes = () => {
     return(
         <section id="detalhes">
