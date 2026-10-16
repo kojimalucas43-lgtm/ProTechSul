@@ -40,6 +40,10 @@ https://www.youtube.com/watch?v=oTIJunBa6MA
 
 https://trello.com/invite/b/6acf58f2dcb9990e93ded14a/ATTI1e754657977a3b92435c44ed944bf7a3FD892B1F/protechsul-sala-4-pietro-baiano-e-kojima 
 
+# Apresentação
+
+
+
 # Colaboradores
 
 https://github.com/brancaglionpietro-coder
