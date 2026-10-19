@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import data from '../../data.json'
+import s from './catalogo.module.css'
 
 export const Catalogo = () => {
   return (
@@ -19,7 +20,7 @@ export const Catalogo = () => {
       <input type="text" placeholder="Pesquisar" />
 
       {data.map((item, index) => (
-        <div key={index}>
+        <div key={index} className={s.card}>
           <img src={item.imagem} alt={item.texto} />
           <h2>{item.texto}</h2>
           <h3>{item.valor}</h3>

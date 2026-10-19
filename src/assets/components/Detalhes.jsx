@@ -16,11 +16,11 @@ export const Detalhes = () => {
 
             {data.map((item, index) => (
                     <div key={index}>
-                    <img src={item.image} alt={item.texto} />
-                    <h2>{item.texto}</h2>
-                    <h3>{item.valor}</h3>
+                        <img src={item.image} alt={item.texto} />
+                        <h2>{item.texto}</h2>
+                        <h3>{item.valor}</h3>
                     </div>
-                ))}
+            ))}
 
         </section>
     )
