@@ -38,19 +38,19 @@ https://www.devmedia.com.br/react-js-criando-rotas-com-react-router-dom/42901
 
 https://www.youtube.com/watch?v=oTIJunBa6MA 
 
-# Trello
+# Trello <---
 
 https://trello.com/invite/b/6acf58f2dcb9990e93ded14a/ATTI1e754657977a3b92435c44ed944bf7a3FD892B1F/protechsul-sala-4-pietro-baiano-e-kojima 
 
-# Apresentação
+# Apresentação <--- 
 
 https://www.canva.com/design/DAHXbNIsn70/RUPHQoGdzBqv9oe0nSl1MA/edit?ui=e30  
 
-# Claude
+# Claude <---
 
 https://claude.ai/login
 
-# Colaboradores
+# Colaboradores <---
 
 https://github.com/brancaglionpietro-coder
 
