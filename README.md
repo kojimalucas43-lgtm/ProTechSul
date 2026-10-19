@@ -17,7 +17,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ![description](images/my-image.png)
 
-# Docs
+# Docs <---
 Nosso docs:
 
 https://docs.google.com/document/d/17KPQxNSPBvAgcM9zjhrNXueczONu6B3cWfPGNEXszOc/edit?tab=t.o9oat5khfj8z
