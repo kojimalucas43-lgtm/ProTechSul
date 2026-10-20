@@ -46,6 +46,17 @@ https://trello.com/invite/b/6acf58f2dcb9990e93ded14a/ATTI1e754657977a3b92435c44e
 
 https://www.canva.com/design/DAHXbNIsn70/RUPHQoGdzBqv9oe0nSl1MA/edit?ui=e30  
 
+# Diagramas <---
+
+De Fluxo:
+
+https://lucid.app/lucidchart/4981ff8a-fff1-4341-a756-0c46d822b796/edit?invitationId=inv_fa9981fa-6b93-4b64-83f8-a9359278b513&page=0_0# 
+
+De Caso de Uso:
+
+https://miro.com/app/board/uXjVEcqzCM4=/ 
+
+
 # Claude <---
 
 https://claude.ai/login
