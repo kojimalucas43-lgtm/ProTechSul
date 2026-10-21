@@ -1,35 +1,26 @@
-import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
-export const Suporte = () => {
+export default function Suporte() {
+  const navigate = useNavigate()
+  const [email, setEmail] = useState('')
+  const [mensagem, setMensagem] = useState('')
 
-    return(
-        <section id="suporte">
-           <header>
-                <nav>
-                <Link to="/catalogo">Catálogo</Link>
-                <Link to="/sobre">Sobre nós</Link>
-                <Link to="/orcamento">Orçamento</Link>
-                <Link to="/favoritos">Favoritos</Link>
-                </nav>
-            </header>
+  function enviar(e) {
+    e.preventDefault()
+    navigate('/concluido')
+  }
 
-            <div>
-                <p>E-mail:</p>
-                <input type="text" placeholder="Digite seu e-mail"/>
-            </div>
-
-            <div>
-                <p>Mensagem:</p>
-                <input type="text" placeholder="Digite sua mensagem"/>
-            </div>
-
-             <button type="button">ENVIAR MENSAGEM</button>
-
-
-
-        </section>
-
-
-        
-    )
+  return (
+    <section className="pagina">
+      <h1 className="titulo">Suporte</h1>
+      <form className="form" onSubmit={enviar} style={{ maxWidth: 430, marginTop: 50 }}>
+        <label>E-mail:</label>
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Digite seu e-mail" required />
+        <label style={{ marginTop: 34 }}>Mensagem:</label>
+        <input value={mensagem} onChange={(e) => setMensagem(e.target.value)} placeholder="Digite sua mensagem" required />
+        <button type="submit" className="btn-amarelo">ENVIAR MENSAGEM</button>
+      </form>
+    </section>
+  )
 }

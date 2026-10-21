@@ -1,56 +1,35 @@
-import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { salvarUsuario } from '../../auth.js'
+import CampoSenha from './CampoSenha.jsx'
 
-export const Cadastro = () => {
-    return(
-        <section id="cadastro">
-            <header>
-                <nav>
-                <Link to="/catalogo">Catálogo</Link>
-                <Link to="/sobre">Sobre nós</Link>
-                <Link to="/orcamento">Orçamento</Link>
-                <Link to="/favoritos">Favoritos</Link>
-                </nav>
-            </header>
+export default function Cadastro() {
+  const navigate = useNavigate()
+  const [f, setF] = useState({ nome: '', empresa: '', email: '', telefone: '', senha: '' })
+  const mudar = (c) => (e) => setF({ ...f, [c]: e.target.value })
 
-            <div>
-                <p>Nome/sobrenome completo:</p>
-                <input type="text" placeholder="Digite seu nome/sobrenome completo"/>
-            </div>
-            
-            <div>
-                <p>Empresa:</p>
-                <input type="text" placeholder="Digite o nome da empresa"/>
-            </div>
+  function enviar(e) {
+    e.preventDefault()
+    salvarUsuario(f)
+    navigate('/login')
+  }
 
-            <div>
-                <p>CPF:</p>
-                <input type="text" placeholder="Digite seu CPF"/>
-            </div>
-
-            <div>
-                <p>CNPJ:</p>
-                <input type="text" placeholder="Digite seu CNPJ"/>
-            </div>
-
-            <div>
-                <p>E-mail:</p>
-                <input type="text" placeholder="Digite o endereço de e-mail"/>
-            </div>
-
-            <div>
-                <p>Senha:</p>
-                <input type="text" placeholder="Digite sua senha"/>
-            </div>
-
-            <div>
-                <p>Telefone:</p>
-                <input type="text" placeholder="Digite ser telefone com DDD"/>
-            </div>
-
-            <div>
-                <button type="button" />
-            </div>
-
-        </section>
-    )
+  return (
+    <section className="pagina">
+      <h1 className="titulo">Cadastro</h1>
+      <form className="form" onSubmit={enviar} style={{ maxWidth: 352 }}>
+        <label>Nome/sobrenome completo:</label>
+        <input value={f.nome} onChange={mudar('nome')} placeholder="Digite seu nome/sobrenome completo" required />
+        <label>Empresa:</label>
+        <input value={f.empresa} onChange={mudar('empresa')} placeholder="Digite o nome da empresa" required />
+        <label>E-mail:</label>
+        <input type="email" value={f.email} onChange={mudar('email')} placeholder="Digite o endereço de e-mail" required />
+        <label>Telefone:</label>
+        <input value={f.telefone} onChange={mudar('telefone')} placeholder="Digite seu telefone com DDD" required />
+        <label>Senha:</label>
+        <CampoSenha value={f.senha} onChange={mudar('senha')} placeholder="Digite sua senha" required />
+        <button type="submit" className="btn-amarelo">FINALIZAR CADASTRO</button>
+      </form>
+    </section>
+  )
 }
