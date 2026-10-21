@@ -1,24 +1,18 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
-export const Concluido = () => {
-    return(
-        <section id="concluido">
-            <header>
-                <nav>
-                <Link to="/catalogo">Catálogo</Link>
-                <Link to="/sobre">Sobre nós</Link>
-                <Link to="/orcamento">Orçamento</Link>
-                <Link to="/favoritos">Favoritos</Link>
-                </nav>
-            </header>
+export default function Concluido() {
+  const { state } = useLocation()
+  const titulo = state?.titulo || 'Mensagem enviada com sucesso!'
+  const texto = state?.texto || 'Obrigado pela sugestão, em breve enviaremos uma resposta'
 
-            <div>
-                <h1>Mensagem enviada com sucesso!</h1>
-            </div>
-
-            <div>
-                <h2>Obrigado pela sugestão, em breve  enviaremos uma resposta</h2>
-            </div>
-        </section>
-    )
+  return (
+    <section className="pagina concluido">
+      <h1>{titulo}</h1>
+      <p>{texto}</p>
+      <span className="check">✓</span>
+      <p style={{ marginTop: 30 }}>
+        <Link to="/catalogo" className="btn-amarelo">Voltar ao catálogo</Link>
+      </p>
+    </section>
+  )
 }

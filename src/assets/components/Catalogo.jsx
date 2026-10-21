@@ -1,31 +1,40 @@
-import { Link } from 'react-router-dom'
-import data from '../../data.json'
-import s from './catalogo.module.css'
+import { useState } from 'react'
+import dados from '../../data.json'
+import useFavoritos from '../../useFavoritos.js'
+import ProdutoCard from './ProdutoCard.jsx'
+import styles from './catalogo.module.css'
 
-export const Catalogo = () => {
+export default function Catalogo() {
+  const [busca, setBusca] = useState('')
+  const { ehFavorito, alternar } = useFavoritos()
+
+  const produtos = dados
+    .filter((p) => !p.relacionado)
+    .filter((p) => p.nome.toLowerCase().includes(busca.toLowerCase()))
+
   return (
-    <section id="catalogo">
-      <header>
-        <nav>
-          <Link to="/catalogo">Catálogo</Link>
-          <Link to="/sobre">Sobre nós</Link>
-          <Link to="/orcamento">Orçamento</Link>
-          <Link to="/favoritos">Favoritos</Link>
-          <Link to="/detalhes">Detalhes</Link>  
+    <section className="pagina">
+      <h1 className="titulo">Catálogo</h1>
 
-        </nav>
-      </header>
+      <label className={styles.busca}>
+        <span>🔍</span>
+        <input
+          type="text"
+          placeholder="Pesquisar"
+          value={busca}
+          onChange={(e) => setBusca(e.target.value)}
+        />
+      </label>
 
-      <h1>Catálogo</h1>
-      <input type="text" placeholder="Pesquisar" />
-
-      {data.map((item, index) => (
-        <div key={index} className={s.card}>
-          <img src={item.imagem} alt={item.texto} />
-          <h2>{item.texto}</h2>
-          <h3>{item.valor}</h3>
+      {produtos.length === 0 ? (
+        <p className={styles.vazio}>Nenhum produto encontrado.</p>
+      ) : (
+        <div className={styles.grade}>
+          {produtos.map((p) => (
+            <ProdutoCard key={p.id} produto={p} favorito={ehFavorito(p.id)} onFavoritar={alternar} />
+          ))}
         </div>
-      ))}
+      )}
     </section>
   )
 }

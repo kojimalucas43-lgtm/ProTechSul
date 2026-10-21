@@ -1,0 +1,11 @@
+.pagina { max-width: 560px; margin: 0 auto; padding: 24px 20px 50px; text-align: center; }
+.pagina h1, .pagina h2 { font-weight: normal; }
+.pagina h1 { font-size: 20px; margin-bottom: 18px; }
+.pagina h2 { font-size: 20px; margin: 18px 0 12px; }
+.caixa {
+  background: var(--cinza); border-radius: 14px; padding: 18px 28px;
+  font-size: 12px; line-height: 1.5; margin-bottom: 18px;
+}
+.caixa p + p { margin-top: 16px; }
+.caixa ul { text-align: left; padding-left: 14px; }
+.final { font-size: 22px; margin-top: 36px; }
