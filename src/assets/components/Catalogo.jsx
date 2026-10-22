@@ -3,6 +3,7 @@ import dados from '../../data.json'
 import useFavoritos from '../../useFavoritos.js'
 import ProdutoCard from './ProdutoCard.jsx'
 import styles from './catalogo.module.css'
+import lupa from '/lupa.png'
 
 export default function Catalogo() {
   const [busca, setBusca] = useState('')
@@ -16,7 +17,7 @@ export default function Catalogo() {
       <h1 className="titulo">Catálogo</h1>
 
       <label className={styles.busca}>
-        <img src="../public/lupa.png" alt="lupa" width="15px" height="auto"/>
+        <img src={lupa} alt="lupa" width="15px" height="auto"/>
         <input
           type="text"
           placeholder="Pesquisar"
