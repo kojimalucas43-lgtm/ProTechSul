@@ -20,7 +20,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # PROTECHSUL-OFICIAL
 
-https://vercel.com/kojima-lucas-projects/pro-tech-sul
+https://pro-tech-sul.vercel.app/
 
 # Docs <---
 Nosso docs:
