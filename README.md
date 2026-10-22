@@ -18,7 +18,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ![ProtechSul](public/logo.png)
 
-![ProtechSul](logo-removebg-preview.png)
+![ProtechSul](public/logo-removebg-preview.png)
 
 ## ----> PROTECHSUL-OFICIAL <----
 
