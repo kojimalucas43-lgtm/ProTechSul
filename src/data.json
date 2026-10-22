@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "Kit Máscara SemiFacial de Uso Geral com Filtro 7003 + Retentor - ProtecFace | CA 48816",
-    "preco": 297.26,
+    "preco": 50.00,
     "imagem": "/mascara1.png",
     "conteudo": "1 máscara + 1 filtro 7003 + 1 retentor.",
     "descricao": "O Kit Máscara Semifacial ProtecFace oferece proteção respiratória para uso profissional, com design confortável e prático para diferentes ambientes de trabalho.",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "nome": "Tênis EVA Marluvas Branco - CA 48714",
-    "preco": 95.9,
+    "preco": 70.9,
     "imagem": "/tenis3.png",
     "conteudo": "1 par de tênis.",
     "descricao": "Calçado em EVA leve e antiderrapante, ideal para ambientes úmidos e de higiene controlada.",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "nome": "Protetor Auricular tipo fone 20db 3M Pomp Muffler - CA 14235",
-    "preco": 172.81,
+    "preco": 100.00,
     "imagem": "/fone4.png",
     "conteudo": "1 protetor auricular tipo fone.",
     "descricao": "Protetor auricular tipo concha com atenuação de ruído para ambientes industriais.",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "nome": "Protetor solar fator 60 - 120g",
-    "preco": 27.46,
+    "preco": 15.50,
     "imagem": "/p.solar5.png",
     "conteudo": "1 bisnaga de 120g.",
     "descricao": "Protetor solar FPS 60 para trabalhadores expostos ao sol.",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "nome": "Cartucho Químico Roleta ProtecFace 7003 Vapores Orgânicos Gases Ácidos",
-    "preco": 94.09,
+    "preco": 40.00,
     "imagem": "/cartucho7.png",
     "relacionado": true,
     "conteudo": "1 cartucho químico.",
@@ -66,7 +66,7 @@
   {
     "id": 8,
     "nome": "Estival bota energy EN10021S2 preto bico de PVC",
-    "preco": 198.94,
+    "preco": 150.90,
     "imagem": "/bota8.png",
     "relacionado": true,
     "conteudo": "1 par de botas.",

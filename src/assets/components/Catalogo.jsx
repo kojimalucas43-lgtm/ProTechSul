@@ -9,15 +9,14 @@ export default function Catalogo() {
   const { ehFavorito, alternar } = useFavoritos()
 
   const produtos = dados
-    .filter((p) => !p.relacionado)
-    .filter((p) => p.nome.toLowerCase().includes(busca.toLowerCase()))
+  .filter((p) => p.nome.toLowerCase().includes(busca.toLowerCase()))
 
   return (
     <section className="pagina">
       <h1 className="titulo">Catálogo</h1>
 
       <label className={styles.busca}>
-        <span>🔍</span>
+        <img src="../public/lupa.png" alt="lupa" width="15px" height="auto"/>
         <input
           type="text"
           placeholder="Pesquisar"
@@ -35,6 +34,7 @@ export default function Catalogo() {
           ))}
         </div>
       )}
+      
     </section>
   )
 }
