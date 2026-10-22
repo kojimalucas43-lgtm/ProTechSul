@@ -9,7 +9,7 @@ const ler = () => {
 const CarrinhoContext = createContext(null)
 
 export function CarrinhoProvider({ children }) {
-  const [itens, setItens] = useState(ler) // [{ id, quantidade }]
+  const [itens, setItens] = useState(ler)
 
   useEffect(() => {
     localStorage.setItem(KEY, JSON.stringify(itens))
@@ -31,7 +31,6 @@ export function CarrinhoProvider({ children }) {
 
   const limpar = () => setItens([])
 
-  // junta os dados do produto (data.json) com a quantidade escolhida
   const produtos = itens
     .map((i) => ({ ...dados.find((p) => p.id === i.id), quantidade: i.quantidade }))
     .filter((p) => p.id)
