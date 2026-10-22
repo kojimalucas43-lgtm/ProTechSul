@@ -22,7 +22,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 https://pro-tech-sul.vercel.app/ <--Site funcionando pô
 
-https://vercel.com/kojima-lucas-projects/pro-tech-sul
+https://vercel.com/kojima-lucas-projects/pro-tech-sul <--Caso de errado pô
 
 # Docs <---
 Nosso docs:
