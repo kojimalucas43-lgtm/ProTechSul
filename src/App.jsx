@@ -15,7 +15,6 @@ import './App.css'
 export default function App() {
   return (
     <>
-      {/* Navbar fica fora das <Routes>, então permanece fixa em todas as páginas */}
       <Navbar />
       <main className="conteudo">
         <Routes>
