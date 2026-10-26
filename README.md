@@ -20,6 +20,9 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ![ProtechSul](public/logo-removebg-preview.png)
 
+
+
+
 ## ----> PROTECHSUL-OFICIAL <----
 
 https://pro-tech-sul.vercel.app/ <--Site funcionando pô
@@ -46,9 +49,15 @@ Avaliativa:
 
 https://docs.google.com/document/d/1qPadIeMXrl9bPHYaCIu3O3-Rwbpf0FmxObw5G5jrRPk/edit?tab=t.0#heading=h.xukt4grbpjvo
 
+
+
+
 # Figma <---
 
 https://www.figma.com/design/tJCWfhVdr4F3APGF6mKBFh/Sem-t%25C3%25ADtulo?node-id=0-1&p=f&t=WaLYup4ucx8awXtx-0 
+
+
+
 
 # React Router Dom <---
 
@@ -58,13 +67,22 @@ https://www.devmedia.com.br/react-js-criando-rotas-com-react-router-dom/42901
 
 https://www.youtube.com/watch?v=oTIJunBa6MA 
 
+
+
+
 # Trello <---
 
 https://trello.com/invite/b/6acf58f2dcb9990e93ded14a/ATTI1e754657977a3b92435c44ed944bf7a3FD892B1F/protechsul-sala-4-pietro-baiano-e-kojima 
 
+
+
+
 # Apresentação <--- 
 
 https://www.canva.com/design/DAHXbNIsn70/RUPHQoGdzBqv9oe0nSl1MA/edit?ui=e30  
+
+
+
 
 # Diagramas <---
 
@@ -76,13 +94,22 @@ De Caso de Uso:
 
 https://miro.com/app/board/uXjVEcqzCM4=/ 
 
+
+
+
 # Claude <--- 
 
 https://claude.ai/login
 
+
+
+
 # App ProtechSul <---
 
 https://github.com/kojimalucas43-lgtm/APP_ProtechSul
+
+
+
 
 # Colaboradores <---
 
@@ -93,4 +120,5 @@ https://github.com/O-BaianoOficial007
 https://github.com/kojimalucas43-lgtm
 
 https://github.com/claude
+
 cadmiel abner moras
