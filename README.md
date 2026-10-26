@@ -73,7 +73,7 @@ https://claude.ai/login
 
 # App ProtechSul <---
 
-https://github.com/O-BaianoOficial007/ProtecSUL-APP
+https://github.com/kojimalucas43-lgtm/APP_ProtechSul
 
 # Colaboradores <---
 
