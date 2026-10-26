@@ -26,9 +26,9 @@ https://pro-tech-sul.vercel.app/ <--Site funcionando pô
 
 https://vercel.com/kojima-lucas-projects/pro-tech-sul <--Caso de errado pô
 
-#----> PROTECHSUL-OFICIAL (APP) <----8
+#----> PROTECHSUL-OFICIAL (APP) <----
 
-https://q-vert-seven.vercel.app/
+https://q-vert-seven.vercel.app/ <--APP funcionando pô
 
 # Docs <---
 Nosso docs:
