@@ -97,13 +97,6 @@ https://miro.com/app/board/uXjVEcqzCM4=/
 
 
 
-# Claude <--- 
-
-https://claude.ai/login
-
-
-
-
 # App ProtechSul <---
 
 https://github.com/kojimalucas43-lgtm/APP_ProtechSul
