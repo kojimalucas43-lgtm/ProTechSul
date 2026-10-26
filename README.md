@@ -18,7 +18,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ![ProtechSul](public/logo.png)
 
-![ProtechSul](public/logo-removebg-preview.png)
 
 
 
@@ -113,5 +112,9 @@ https://github.com/O-BaianoOficial007
 https://github.com/kojimalucas43-lgtm
 
 https://github.com/claude
+
+
+
+![ProtechSul](public/logo-removebg-preview.png)
 
 cadmiel abner moras
