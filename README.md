@@ -1,6 +1,10 @@
 ![ProtechSul](public/logo.png)
 
+Saber siglas
 
+Enviar p/ email
+
+App verde certo, vermelho errado
 
 
 ## ----> PROTECHSUL-OFICIAL <----
