@@ -26,6 +26,9 @@ https://q-vert-seven.vercel.app/ <--APP funcionando pô
 
 https://vercel.com/kojima-lucas-projects/q <--Caso de errado pô
 
+
+
+
 # SLIDES <----
 
 https://mail.google.com/mail/u/0/#inbox/FMfcgzQjggjKrvDmcqBTLRbFfsTdqDvd?messagePartId=0.1 
