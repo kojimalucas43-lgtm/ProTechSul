@@ -24,7 +24,7 @@ https://mail.google.com/mail/u/0/#inbox/FMfcgzQjggjKrvDmcqBTLRbFfsTdqDvd?message
 
 
 
-# Figma <---
+# FIGMA <---
 
 https://www.figma.com/design/tJCWfhVdr4F3APGF6mKBFh/Sem-t%25C3%25ADtulo?node-id=0-1&p=f&t=WaLYup4ucx8awXtx-0 <- SITE
 
@@ -57,14 +57,6 @@ https://www.youtube.com/watch?v=oTIJunBa6MA
 # Trello <---
 
 https://trello.com/invite/b/6acf58f2dcb9990e93ded14a/ATTI1e754657977a3b92435c44ed944bf7a3FD892B1F/protechsul-sala-4-pietro-baiano-e-kojima 
-
-
-
-
-# Apresentação <--- 
-
-https://www.canva.com/design/DAHXbNIsn70/RUPHQoGdzBqv9oe0nSl1MA/edit?ui=e30  
-
 
 
 
