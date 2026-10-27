@@ -2,11 +2,11 @@
 
 MELHORIAS (27/10):
 
-- Saber siglas;
+- Saber siglas; X
 
-- Enviar p/ email;
+- Enviar p/ email; X
 
-- App verde certo, vermelho errado.
+- App verde certo, vermelho errado. X
 
 
 
