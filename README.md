@@ -2,11 +2,11 @@
 
 MELHORIAS:
 
-- Saber siglas
+- Saber siglas;
 
-- Enviar p/ email
+- Enviar p/ email;
 
-- App verde certo, vermelho errado
+- App verde certo, vermelho errado.
 
 
 
