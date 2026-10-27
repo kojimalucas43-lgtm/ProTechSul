@@ -36,9 +36,9 @@ https://docs.google.com/document/d/1qPadIeMXrl9bPHYaCIu3O3-Rwbpf0FmxObw5G5jrRPk/
 
 # Figma <---
 
-https://www.figma.com/design/tJCWfhVdr4F3APGF6mKBFh/Sem-t%25C3%25ADtulo?node-id=0-1&p=f&t=WaLYup4ucx8awXtx-0 
+https://www.figma.com/design/tJCWfhVdr4F3APGF6mKBFh/Sem-t%25C3%25ADtulo?node-id=0-1&p=f&t=WaLYup4ucx8awXtx-0 <- SITE
 
-
+https://www.figma.com/design/Yrs7ggXFybcW9Xob6CSANx/Sem-t%C3%ADtulo?node-id=0-1&p=f&t=btsOR5vFzbEjpcuK-0 <- APP
 
 
 # React Router Dom <---
