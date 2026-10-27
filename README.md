@@ -1,6 +1,6 @@
 ![ProtechSul](public/logo.png)
 
-MELHORIAS:
+MELHORIAS (27/10):
 
 - Saber siglas;
 
